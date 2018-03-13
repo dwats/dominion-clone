@@ -1,0 +1,38 @@
+{
+  "name": "dominion-clone",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "coverage": "export NODE_ENV=test || SET \"NODE_ENV=test\" && istanbul cover _mocha server/**/*.test.js"
+  },
+  "author": "Eric Julius, Asa Furman, Brendan Schreiner",
+  "engines": {
+    "node": "9.5.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.1",
+    "nodemon": "^1.15.1"
+  },
+  "description": "A clone of the popular card game Dominion.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwats/dominion-clone.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwats/dominion-clone/issues"
+  },
+  "homepage": "https://github.com/dwats/dominion-clone#readme"
+}
