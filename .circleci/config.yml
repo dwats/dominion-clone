@@ -27,7 +27,6 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run: npm i -g eslint
 
       - save_cache:
           paths:
@@ -35,6 +34,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: eslint server/**
+      - run: ./node_modules/.bin/eslint server/**
       - run: npm run test
 
