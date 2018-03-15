@@ -9,7 +9,7 @@
   },
   "author": "Eric Julius, Asa Furman, Brendan Schreiner",
   "engines": {
-    "node": "9.5.0"
+    "node": "9.8.0"
   },
   "dependencies": {},
   "devDependencies": {
