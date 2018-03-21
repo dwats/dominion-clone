@@ -1,0 +1,32 @@
+{
+    "files.eol": "\n",
+    "workbench.iconTheme": "file-icons",
+    "editor.tabSize": 2,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ],
+            "ext": [
+                "js", "json"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "editor.renderWhitespace": "none",
+    "editor.showFoldingControls": "always",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}
